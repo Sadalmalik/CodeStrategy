@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Глеб\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Глеб\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_CoderStrategy.1865962685.00" t="ExcludeRecursive" />
+    <e p="D:\PROGRAMMING\Unity_2022\CoderStrategy" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Game" t="Include">
+          <e p="_RTSCore" t="Include">
+            <e p="Code" t="Include">
+              <e p="Checker.cs" t="Include" />
+              <e p="Extras" t="Include">
+                <e p="UnitHeightLocker.cs" t="Include" />
+                <e p="UnitHullRotator.cs" t="Include" />
+              </e>
+              <e p="FractionController.cs" t="Include" />
+              <e p="GameManager.cs" t="Include" />
+              <e p="Gameplay" t="Include">
+                <e p="Fraction.cs" t="Include" />
+                <e p="FractionSetting.cs" t="Include" />
+                <e p="Orb.cs" t="Include" />
+                <e p="OrbAbilities.cs" t="Include" />
+                <e p="OrbSettings.cs" t="Include" />
+                <e p="ResourceContainer.cs" t="Include" />
+                <e p="ResourceEntity.cs" t="Include" />
+                <e p="ResourcePack.cs" t="Include" />
+                <e p="ResourceType.cs" t="Include" />
+                <e p="ViewCylinder.cs" t="Include" />
+              </e>
+              <e p="OrbHUDController.cs" t="Include" />
+              <e p="TerrainManager.cs" t="Include" />
+              <e p="TestTrigger.cs" t="Include" />
+              <e p="Utils" t="Include">
+                <e p="BitUtils.cs" t="Include" />
+                <e p="ObjectsPool.cs" t="Include" />
+                <e p="SearchGrid.cs" t="Include" />
+                <e p="Singleton.cs" t="Include" />
+              </e>
+              <e p="WorldGenerator" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="GenerationNodeEditor.cs" t="Include" />
+                </e>
+                <e p="GenRandom.cs" t="Include" />
+                <e p="Nodes" t="Include">
+                  <e p="BiomeExtractor.cs" t="Include" />
+                  <e p="GeneratorNode.cs" t="Include" />
+                  <e p="OpBinaryNode.cs" t="Include" />
+                  <e p="OpClampNode.cs" t="Include" />
+                  <e p="OpConstNode.cs" t="Include" />
+                  <e p="OpRangeNode.cs" t="Include" />
+                  <e p="OpTransformNode.cs" t="Include" />
+                  <e p="PerlinNoiseNode.cs" t="Include" />
+                </e>
+                <e p="TerrainGenerator.cs" t="Include" />
+                <e p="WorldGenGraph.cs" t="Include" />
+                <e p="WorldGenUtils.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="ExampleFraction" t="Include">
+            <e p="Code" t="Include">
+              <e p="ExampleFractionController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="xNodeExamples" t="Include">
+            <e p="LogicToy" t="Include">
+              <e p="Editor" t="Include">
+                <e p="LogicGraphEditor.cs" t="Include" />
+                <e p="LogicNodeEditor.cs" t="Include" />
+              </e>
+              <e p="ITimerTick.cs" t="Include" />
+              <e p="LogicGraph.cs" t="Include" />
+              <e p="Nodes" t="Include">
+                <e p="AndNode.cs" t="Include" />
+                <e p="LogicNode.cs" t="Include" />
+                <e p="NotNode.cs" t="Include" />
+                <e p="PulseNode.cs" t="Include" />
+                <e p="ToggleNode.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MathGraph" t="Include">
+              <e p="Editor" t="Include">
+                <e p="MathGraphEditor.cs" t="Include" />
+              </e>
+              <e p="MathGraph.cs" t="Include" />
+              <e p="Nodes" t="Include">
+                <e p="DisplayValue.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="DisplayValueEditor.cs" t="Include" />
+                </e>
+                <e p="MathNode.cs" t="Include" />
+                <e p="Vector.cs" t="Include" />
+              </e>
+            </e>
+            <e p="RuntimeMathGraph" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Connection.cs" t="Include" />
+                <e p="NodeDrag.cs" t="Include" />
+                <e p="RuntimeMathGraph.cs" t="Include" />
+                <e p="RuntimeNodes" t="Include">
+                  <e p="UGUIDisplayValue.cs" t="Include" />
+                  <e p="UGUIMathBaseNode.cs" t="Include" />
+                  <e p="UGUIMathNode.cs" t="Include" />
+                  <e p="UGUIVector.cs" t="Include" />
+                </e>
+                <e p="UGUIContextMenu.cs" t="Include" />
+                <e p="UGUIPort.cs" t="Include" />
+                <e p="UGUITooltip.cs" t="Include" />
+              </e>
+            </e>
+            <e p="StateMachine" t="Include">
+              <e p="Editor" t="Include">
+                <e p="StateGraphEditor.cs" t="Include" />
+              </e>
+              <e p="Nodes" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="StateNodeEditor.cs" t="Include" />
+                </e>
+                <e p="StateNode.cs" t="Include" />
+              </e>
+              <e p="StateGraph.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Sirenix" t="Include">
+            <e p="Assemblies" t="Include">
+              <e p="link.xml" t="Include" />
+              <e p="Sirenix.OdinInspector.Attributes.xml" t="Include" />
+              <e p="Sirenix.OdinInspector.Editor.xml" t="Include" />
+              <e p="Sirenix.Serialization.Config.xml" t="Include" />
+              <e p="Sirenix.Serialization.xml" t="Include" />
+              <e p="Sirenix.Utilities.Editor.xml" t="Include" />
+              <e p="Sirenix.Utilities.xml" t="Include" />
+            </e>
+            <e p="Odin Inspector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
+                  <e p="BuildAOTAutomation.cs" t="Include" />
+                  <e p="EnsureOdinInspectorDefine.cs" t="Include" />
+                  <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
+                  <e p="SyncListDrawer.cs" t="Include" />
+                  <e p="SyncVarAttributeDrawer.cs" t="Include" />
+                  <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
+                  <e p="VectorIntDrawers.cs" t="Include" />
+                  <e p="VectorIntPropertyResolvers.cs" t="Include" />
+                </e>
+                <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                <e p="Sirenix.OdinInspector.CompatibilityLayer.asmdef" t="Include" />
+                <e p="VectorIntFormatters.cs" t="Include" />
+              </e>
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="xNode" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="NodeEnum.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="Drawers" t="Include">
+                  <e p="NodeEnumDrawer.cs" t="Include" />
+                  <e p="Odin" t="Include">
+                    <e p="InNodeEditorAttributeProcessor.cs" t="Include" />
+                    <e p="InputAttributeDrawer.cs" t="Include" />
+                    <e p="OutputAttributeDrawer.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="GraphAndNodeEditor.cs" t="Include" />
+                <e p="GraphRenameFixAssetProcessor.cs" t="Include" />
+                <e p="Internal" t="Include">
+                  <e p="RerouteReference.cs" t="Include" />
+                </e>
+                <e p="NodeEditor.cs" t="Include" />
+                <e p="NodeEditorAction.cs" t="Include" />
+                <e p="NodeEditorAssetModProcessor.cs" t="Include" />
+                <e p="NodeEditorBase.cs" t="Include" />
+                <e p="NodeEditorGUI.cs" t="Include" />
+                <e p="NodeEditorGUILayout.cs" t="Include" />
+                <e p="NodeEditorPreferences.cs" t="Include" />
+                <e p="NodeEditorReflection.cs" t="Include" />
+                <e p="NodeEditorResources.cs" t="Include" />
+                <e p="NodeEditorUtilities.cs" t="Include" />
+                <e p="NodeEditorWindow.cs" t="Include" />
+                <e p="NodeGraphEditor.cs" t="Include" />
+                <e p="NodeGraphImporter.cs" t="Include" />
+                <e p="RenamePopup.cs" t="Include" />
+                <e p="Resources" t="Include">
+                  <e p="ScriptTemplates" t="Include">
+                    <e p="xNode_NodeGraphTemplate.cs.txt" t="Include" />
+                    <e p="xNode_NodeTemplate.cs.txt" t="Include" />
+                  </e>
+                </e>
+                <e p="SceneGraphEditor.cs" t="Include" />
+                <e p="XNodeEditor.asmdef" t="Include" />
+              </e>
+              <e p="Node.cs" t="Include" />
+              <e p="NodeDataCache.cs" t="Include" />
+              <e p="NodeGraph.cs" t="Include" />
+              <e p="NodePort.cs" t="Include" />
+              <e p="SceneGraph.cs" t="Include" />
+              <e p="XNode.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CoderStrategy.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="XNode.csproj" t="IncludeRecursive" />
+      <e p="XNodeEditor.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
