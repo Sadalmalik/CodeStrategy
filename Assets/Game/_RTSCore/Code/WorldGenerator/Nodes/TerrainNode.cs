@@ -10,5 +10,7 @@ namespace MetaRTS
 	public class TerrainNode : Node
 	{
 		[Input] public GenNode input;
+		
+		public GenNode Generator => input = GetInputValue("input", input);
 	}
 }

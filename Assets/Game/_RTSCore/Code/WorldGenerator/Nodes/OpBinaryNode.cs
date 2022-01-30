@@ -27,8 +27,8 @@ namespace MetaRTS
 
 		public override float Calculate(float x, float y)
 		{
-			if (inputA==null) inputA = GetInputValue("inputA", inputA);
-			if (inputB==null) inputB = GetInputValue("inputB", inputB);
+			inputA = GetInputValue("inputA", inputA);
+			inputB = GetInputValue("inputB", inputB);
 		
 			if (inputA==null && inputB==null) return .5f;
 			if (inputA==null) return inputB.Calculate(x, y);

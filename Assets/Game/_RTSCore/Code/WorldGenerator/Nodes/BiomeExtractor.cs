@@ -26,12 +26,9 @@ namespace MetaRTS
 
 		public override float Calculate(float x, float y)
 		{
-			if (inputX == null)
-				inputX = GetInputValue("inputX", inputX);
-			if (inputY == null)
-				inputY = GetInputValue("inputY", inputY);
-			if (inputZ == null)
-				inputZ = GetInputValue("inputZ", inputZ);
+			inputX = GetInputValue("inputX", inputX);
+			inputY = GetInputValue("inputY", inputY);
+			inputZ = GetInputValue("inputZ", inputZ);
 				
 			var value = new Vector3(
 				inputX?.Calculate(x, y) ?? .5f,

@@ -13,33 +13,41 @@ namespace MetaRTS
 	[RequireNode(typeof(TerrainNode))]
 	public class WorldGenGraph : NodeGraph
 	{
-		public int seed;
+		public int  seed;
 		public bool dirty = false;
-		
-        public override Node AddNode(Type type)
-        {
+
+		public override Node AddNode(Type type)
+		{
 			var node = base.AddNode(type);
 			dirty = true;
-            return node;
-        }
+			return node;
+		}
 
-        public override Node CopyNode(Node original)
-        {
+		public override Node CopyNode(Node original)
+		{
 			var node = base.CopyNode(original);
 			dirty = true;
-            return node;
-        }
+			return node;
+		}
 
-        public override void RemoveNode(Node node)
-        {
+		public override void RemoveNode(Node node)
+		{
 			base.RemoveNode(node);
 			dirty = true;
-        }
+		}
 
-        public override void Clear()
-        {
-            base.Clear();
+		public override void Clear()
+		{
+			base.Clear();
 			dirty = true;
-        }
+		}
+
+		public TerrainNode getTerrainNode()
+		{
+			for (int i = 0; i < nodes.Count; i++)
+				if (nodes[i] is TerrainNode node)
+					return node;
+			return null;
+		}
 	}
 }

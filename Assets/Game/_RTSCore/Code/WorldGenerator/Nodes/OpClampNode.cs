@@ -20,8 +20,7 @@ namespace MetaRTS
 
 		public override float Calculate(float x, float y)
 		{
-			if (input==null)
-				input = GetInputValue("input", input);
+			input = GetInputValue("input", input);
 			
 			if (input==null)
 				return .5f;

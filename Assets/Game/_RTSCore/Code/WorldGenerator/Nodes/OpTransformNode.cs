@@ -13,6 +13,7 @@ namespace MetaRTS
 		
 		public float angle;
 		public float scale;
+		public float power;
 		public Vector2 offset;
 		
 		public override void SetRandom(GenRandom random)
@@ -22,8 +23,7 @@ namespace MetaRTS
 
 		public override float Calculate(float x, float y)
 		{
-			if (input == null)
-				input = GetInputValue("input", input);
+			input = GetInputValue("input", input);
 			
 			if (input == null)
 				return 0.5f;
@@ -37,7 +37,7 @@ namespace MetaRTS
 			var nx = scale * (x * cos - y * sin);
 			var ny = scale * (x * sin + y * cos);
 			
-			return input.Calculate(nx, ny);
+			return power * input.Calculate(nx, ny);
 		}
 	}
 }

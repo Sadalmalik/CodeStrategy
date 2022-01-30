@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="784dc41d-9cb6-45c2-aa54-04226be97dbf" name="Default Changelist" comment="" />
+    <list default="true" id="784dc41d-9cb6-45c2-aa54-04226be97dbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpConstNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpConstNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/PerlinNoiseNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/PerlinNoiseNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenerationGraph.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenerationGraph.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,137 +28,91 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="595">
+              <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="23" />
               <folding>
-                <marker date="1643578304465" expanded="true" signature="6:134" ph="..." />
-                <marker date="1643578304465" expanded="true" signature="153:980" ph="{...}" />
-                <marker date="1643578304465" expanded="true" signature="212:978" ph="{...}" />
-                <marker date="1643578304465" expanded="true" signature="459:471" ph="{...}" />
-                <marker date="1643578304465" expanded="true" signature="524:975" ph="{...}" />
+                <marker date="1643473877111" expanded="false" signature="6:92" ph="..." />
+                <marker date="1643473877111" expanded="true" signature="111:2418" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="165:1129" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="468:627" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="671:1126" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="972:1046" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="1198:2416" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="1524:1604" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="1545:1600" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="1630:2106" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="1821:1874" ph="{...}" />
+                <marker date="1643473877111" expanded="true" signature="2152:2413" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="523">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="30" />
               <folding>
-                <marker date="1643578217585" expanded="false" signature="6:105" ph="..." />
-                <marker date="1643578217585" expanded="true" signature="124:1076" ph="{...}" />
-                <marker date="1643578217585" expanded="true" signature="164:1074" ph="{...}" />
-                <marker date="1643578217585" expanded="false" signature="168:549" ph="Main" />
-                <marker date="1643578217585" expanded="true" signature="275:300" ph="{...}" />
-                <marker date="1643578217585" expanded="true" signature="350:426" ph="{...}" />
-                <marker date="1643578217585" expanded="false" signature="552:1071" ph="Generator preview" />
-                <marker date="1643578217585" expanded="true" signature="635:757" ph="{...}" />
-                <marker date="1643578217585" expanded="true" signature="646:753" ph="{...}" />
-                <marker date="1643578217585" expanded="true" signature="787:1059" ph="{...}" />
-                <marker date="1643578217585" expanded="true" signature="841:1055" ph="{...}" />
-                <marker date="1643578217585" expanded="true" signature="972:1050" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/PerlinNoiseNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <marker date="1643578216388" expanded="false" signature="6:121" ph="..." />
-                <marker date="1643578216388" expanded="true" signature="140:606" ph="{...}" />
-                <marker date="1643578216388" expanded="true" signature="182:604" ph="{...}" />
-                <marker date="1643578216388" expanded="true" signature="311:408" ph="{...}" />
-                <marker date="1643578216388" expanded="true" signature="461:601" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="25" selection-end-column="54" />
-              <folding>
-                <marker date="1643578279823" expanded="false" signature="6:135" ph="..." />
-                <marker date="1643578279823" expanded="true" signature="154:802" ph="{...}" />
-                <marker date="1643578279823" expanded="true" signature="196:800" ph="{...}" />
-                <marker date="1643578279823" expanded="true" signature="357:369" ph="{...}" />
-                <marker date="1643578279823" expanded="true" signature="422:797" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="30" selection-end-column="71" />
-              <folding>
-                <marker date="1643578331737" expanded="false" signature="6:170" ph="..." />
-                <marker date="1643578331737" expanded="true" signature="189:1299" ph="{...}" />
-                <marker date="1643578331737" expanded="true" signature="214:252" ph="{...}" />
-                <marker date="1643578331737" expanded="true" signature="290:1297" ph="{...}" />
-                <marker date="1643578331737" expanded="true" signature="469:477" ph="{...}" />
-                <marker date="1643578331737" expanded="true" signature="530:1294" ph="{...}" />
-                <marker date="1643578331737" expanded="true" signature="953:1244" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="23" selection-end-column="54" />
-              <folding>
-                <marker date="1643578344404" expanded="false" signature="6:120" ph="..." />
-                <marker date="1643578344404" expanded="true" signature="139:550" ph="{...}" />
-                <marker date="1643578344404" expanded="true" signature="177:548" ph="{...}" />
-                <marker date="1643578344404" expanded="true" signature="309:321" ph="{...}" />
-                <marker date="1643578344404" expanded="true" signature="374:545" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpConstNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <marker date="1643578216396" expanded="false" signature="6:120" ph="..." />
-                <marker date="1643578216396" expanded="true" signature="139:353" ph="{...}" />
-                <marker date="1643578216396" expanded="true" signature="177:351" ph="{...}" />
-                <marker date="1643578216396" expanded="true" signature="259:267" ph="{...}" />
-                <marker date="1643578216396" expanded="true" signature="320:348" ph="{...}" />
+                <marker date="1643581408961" expanded="true" signature="6:78" ph="..." />
+                <marker date="1643581408961" expanded="true" signature="97:1077" ph="{...}" />
+                <marker date="1643581408961" expanded="true" signature="169:1075" ph="{...}" />
+                <marker date="1643581408961" expanded="true" signature="401:481" ph="{...}" />
+                <marker date="1643581408961" expanded="true" signature="422:477" ph="{...}" />
+                <marker date="1643581408961" expanded="true" signature="507:1072" ph="{...}" />
+                <marker date="1643581408961" expanded="true" signature="700:840" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="602">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
-                <marker date="1643578349137" expanded="false" signature="6:120" ph="..." />
-                <marker date="1643578349137" expanded="true" signature="139:639" ph="{...}" />
-                <marker date="1643578349137" expanded="true" signature="177:637" ph="{...}" />
-                <marker date="1643578349137" expanded="true" signature="347:355" ph="{...}" />
-                <marker date="1643578349137" expanded="true" signature="408:634" ph="{...}" />
+                <marker date="1643581627167" expanded="false" signature="6:135" ph="..." />
+                <marker date="1643581627167" expanded="true" signature="154:809" ph="{...}" />
+                <marker date="1643581627167" expanded="true" signature="196:807" ph="{...}" />
+                <marker date="1643581627167" expanded="true" signature="379:391" ph="{...}" />
+                <marker date="1643581627167" expanded="true" signature="444:804" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+              <folding>
+                <marker date="1643581314848" expanded="true" signature="6:91" ph="..." />
+                <marker date="1643581314848" expanded="true" signature="111:286" ph="{...}" />
+                <marker date="1643581314848" expanded="true" signature="174:284" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <marker date="1643579107851" expanded="false" signature="6:105" ph="..." />
+                <marker date="1643579107851" expanded="true" signature="124:946" ph="{...}" />
+                <marker date="1643579107851" expanded="true" signature="128:236" ph="[...]" />
+                <marker date="1643579107851" expanded="true" signature="312:944" ph="{...}" />
+                <marker date="1643579107851" expanded="true" signature="407:482" ph="{...}" />
+                <marker date="1643579107851" expanded="true" signature="530:610" ph="{...}" />
+                <marker date="1643579107851" expanded="true" signature="656:707" ph="{...}" />
+                <marker date="1643579107851" expanded="true" signature="739:781" ph="{...}" />
+                <marker date="1643579107851" expanded="true" signature="820:941" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -149,16 +120,27 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>distanceWeight</find>
+      <find>deph</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceRadialNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/PerlinNoiseNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpConstNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -169,11 +151,18 @@
         <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TestNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GeneratorNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/PerlinNoiseNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceRadialNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" />
       </list>
     </option>
   </component>
@@ -298,12 +287,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643576703837</updated>
-      <workItem from="1643576705064" duration="1551000" />
+      <workItem from="1643576705064" duration="4606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1551000" />
+    <option name="totallyTimeSpent" value="4606000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +305,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,10 +360,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <marker date="1643580058592" expanded="false" signature="6:121" ph="..." />
+            <marker date="1643580058592" expanded="true" signature="140:640" ph="{...}" />
+            <marker date="1643580058592" expanded="true" signature="216:638" ph="{...}" />
+            <marker date="1643580058592" expanded="true" signature="345:442" ph="{...}" />
+            <marker date="1643580058592" expanded="true" signature="495:635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <marker date="1643578217585" expanded="false" signature="6:105" ph="..." />
             <marker date="1643578217585" expanded="true" signature="124:1076" ph="{...}" />
@@ -393,102 +395,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <marker date="1643578304465" expanded="true" signature="6:134" ph="..." />
-            <marker date="1643578304465" expanded="true" signature="153:980" ph="{...}" />
-            <marker date="1643578304465" expanded="true" signature="212:978" ph="{...}" />
-            <marker date="1643578304465" expanded="true" signature="459:471" ph="{...}" />
-            <marker date="1643578304465" expanded="true" signature="524:975" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="30" selection-end-column="71" />
-          <folding>
-            <marker date="1643578331737" expanded="false" signature="6:170" ph="..." />
-            <marker date="1643578331737" expanded="true" signature="189:1299" ph="{...}" />
-            <marker date="1643578331737" expanded="true" signature="214:252" ph="{...}" />
-            <marker date="1643578331737" expanded="true" signature="290:1297" ph="{...}" />
-            <marker date="1643578331737" expanded="true" signature="469:477" ph="{...}" />
-            <marker date="1643578331737" expanded="true" signature="530:1294" ph="{...}" />
-            <marker date="1643578331737" expanded="true" signature="953:1244" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="23" selection-end-column="54" />
-          <folding>
-            <marker date="1643578344404" expanded="false" signature="6:120" ph="..." />
-            <marker date="1643578344404" expanded="true" signature="139:550" ph="{...}" />
-            <marker date="1643578344404" expanded="true" signature="177:548" ph="{...}" />
-            <marker date="1643578344404" expanded="true" signature="309:321" ph="{...}" />
-            <marker date="1643578344404" expanded="true" signature="374:545" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpConstNode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1643578216396" expanded="false" signature="6:120" ph="..." />
-            <marker date="1643578216396" expanded="true" signature="139:353" ph="{...}" />
-            <marker date="1643578216396" expanded="true" signature="177:351" ph="{...}" />
-            <marker date="1643578216396" expanded="true" signature="259:267" ph="{...}" />
-            <marker date="1643578216396" expanded="true" signature="320:348" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="25" selection-end-column="54" />
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
-            <marker date="1643578279823" expanded="false" signature="6:135" ph="..." />
-            <marker date="1643578279823" expanded="true" signature="154:802" ph="{...}" />
-            <marker date="1643578279823" expanded="true" signature="196:800" ph="{...}" />
-            <marker date="1643578279823" expanded="true" signature="357:369" ph="{...}" />
-            <marker date="1643578279823" expanded="true" signature="422:797" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/PerlinNoiseNode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1643578216388" expanded="false" signature="6:121" ph="..." />
-            <marker date="1643578216388" expanded="true" signature="140:606" ph="{...}" />
-            <marker date="1643578216388" expanded="true" signature="182:604" ph="{...}" />
-            <marker date="1643578216388" expanded="true" signature="311:408" ph="{...}" />
-            <marker date="1643578216388" expanded="true" signature="461:601" ph="{...}" />
+            <marker date="1643580939584" expanded="false" signature="6:120" ph="..." />
+            <marker date="1643580939584" expanded="true" signature="139:529" ph="{...}" />
+            <marker date="1643580939584" expanded="true" signature="177:527" ph="{...}" />
+            <marker date="1643580939584" expanded="true" signature="309:321" ph="{...}" />
+            <marker date="1643580939584" expanded="true" signature="374:524" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="432">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
-            <marker date="1643578349137" expanded="false" signature="6:120" ph="..." />
-            <marker date="1643578349137" expanded="true" signature="139:639" ph="{...}" />
-            <marker date="1643578349137" expanded="true" signature="177:637" ph="{...}" />
-            <marker date="1643578349137" expanded="true" signature="347:355" ph="{...}" />
-            <marker date="1643578349137" expanded="true" signature="408:634" ph="{...}" />
+            <marker date="1643580939578" expanded="false" signature="6:120" ph="..." />
+            <marker date="1643580939578" expanded="true" signature="139:618" ph="{...}" />
+            <marker date="1643580939578" expanded="true" signature="177:616" ph="{...}" />
+            <marker date="1643580939578" expanded="true" signature="347:355" ph="{...}" />
+            <marker date="1643580939578" expanded="true" signature="408:613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1643580127027" expanded="false" signature="6:120" ph="..." />
+            <marker date="1643580127027" expanded="true" signature="139:385" ph="{...}" />
+            <marker date="1643580127027" expanded="true" signature="209:383" ph="{...}" />
+            <marker date="1643580127027" expanded="true" signature="291:299" ph="{...}" />
+            <marker date="1643580127027" expanded="true" signature="352:380" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceRadialNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <marker date="1643580505196" expanded="true" signature="6:91" ph="..." />
+            <marker date="1643580505196" expanded="true" signature="110:609" ph="{...}" />
+            <marker date="1643580505196" expanded="true" signature="183:607" ph="{...}" />
+            <marker date="1643580505196" expanded="true" signature="318:326" ph="{...}" />
+            <marker date="1643580505196" expanded="true" signature="379:604" ph="{...}" />
+            <marker date="1643580505196" expanded="true" signature="398:475" ph="{...}" />
+            <marker date="1643580505196" expanded="true" signature="483:600" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <marker date="1643580939574" expanded="false" signature="6:170" ph="..." />
+            <marker date="1643580939574" expanded="true" signature="189:1263" ph="{...}" />
+            <marker date="1643580939574" expanded="true" signature="214:252" ph="{...}" />
+            <marker date="1643580939574" expanded="true" signature="290:1261" ph="{...}" />
+            <marker date="1643580939574" expanded="true" signature="469:477" ph="{...}" />
+            <marker date="1643580939574" expanded="true" signature="530:1258" ph="{...}" />
+            <marker date="1643580939574" expanded="true" signature="917:1208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <marker date="1643580939151" expanded="true" signature="6:134" ph="..." />
+            <marker date="1643580939151" expanded="true" signature="153:908" ph="{...}" />
+            <marker date="1643580939151" expanded="true" signature="212:906" ph="{...}" />
+            <marker date="1643580939151" expanded="true" signature="459:471" ph="{...}" />
+            <marker date="1643580939151" expanded="true" signature="524:903" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <marker date="1643579107851" expanded="false" signature="6:105" ph="..." />
+            <marker date="1643579107851" expanded="true" signature="124:946" ph="{...}" />
+            <marker date="1643579107851" expanded="true" signature="128:236" ph="[...]" />
+            <marker date="1643579107851" expanded="true" signature="312:944" ph="{...}" />
+            <marker date="1643579107851" expanded="true" signature="407:482" ph="{...}" />
+            <marker date="1643579107851" expanded="true" signature="530:610" ph="{...}" />
+            <marker date="1643579107851" expanded="true" signature="656:707" ph="{...}" />
+            <marker date="1643579107851" expanded="true" signature="739:781" ph="{...}" />
+            <marker date="1643579107851" expanded="true" signature="820:941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+          <folding>
+            <marker date="1643581314848" expanded="true" signature="6:91" ph="..." />
+            <marker date="1643581314848" expanded="true" signature="111:286" ph="{...}" />
+            <marker date="1643581314848" expanded="true" signature="174:284" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="23" />
+          <folding>
+            <marker date="1643473877111" expanded="false" signature="6:92" ph="..." />
+            <marker date="1643473877111" expanded="true" signature="111:2418" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="165:1129" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="468:627" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="671:1126" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="972:1046" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="1198:2416" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="1524:1604" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="1545:1600" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="1630:2106" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="1821:1874" ph="{...}" />
+            <marker date="1643473877111" expanded="true" signature="2152:2413" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <marker date="1643581408961" expanded="true" signature="6:78" ph="..." />
+            <marker date="1643581408961" expanded="true" signature="97:1077" ph="{...}" />
+            <marker date="1643581408961" expanded="true" signature="169:1075" ph="{...}" />
+            <marker date="1643581408961" expanded="true" signature="401:481" ph="{...}" />
+            <marker date="1643581408961" expanded="true" signature="422:477" ph="{...}" />
+            <marker date="1643581408961" expanded="true" signature="507:1072" ph="{...}" />
+            <marker date="1643581408961" expanded="true" signature="700:840" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <marker date="1643581627167" expanded="false" signature="6:135" ph="..." />
+            <marker date="1643581627167" expanded="true" signature="154:809" ph="{...}" />
+            <marker date="1643581627167" expanded="true" signature="196:807" ph="{...}" />
+            <marker date="1643581627167" expanded="true" signature="379:391" ph="{...}" />
+            <marker date="1643581627167" expanded="true" signature="444:804" ph="{...}" />
           </folding>
         </state>
       </provider>

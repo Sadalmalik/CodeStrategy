@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4589021150817519994
+--- !u!114 &-9168432157682176786
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,327 +9,60 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9246ba89b5d8ad47b4f56d8c0f0866c, type: 3}
-  m_Name: Op Transform
+  m_Script: {fileID: 11500000, guid: 2f0315df462e4134290ffa036888061c, type: 3}
+  m_Name: Op Binary
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1144, y: -120}
+  position: {x: -792, y: 472}
   ports:
     keys:
-    - input
+    - inputA
+    - inputB
     - value
     values:
-    - _fieldName: input
-      _node: {fileID: -4589021150817519994}
+    - _fieldName: inputA
+      _node: {fileID: -9168432157682176786}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
       - fieldName: value
-        node: {fileID: -276828531895503738}
+        node: {fileID: 7581195072872172266}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputB
+      _node: {fileID: -9168432157682176786}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -5576172080404769120}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: value
-      _node: {fileID: -4589021150817519994}
+      _node: {fileID: -9168432157682176786}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
       - fieldName: inputA
-        node: {fileID: -3938047039767685628}
+        node: {fileID: 8541607954707548598}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  showPreview: 1
-  value: {fileID: -4589021150817519994}
-  input: {fileID: -276828531895503738}
-  angle: 17.62
-  scale: 0.44
-  offset: {x: 3.5, y: 3.5}
---- !u!114 &-4549240169520590832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46c5f4f30776856449eb01ac2f5a5998, type: 3}
-  m_Name: Biome Extractor
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 616, y: 408}
-  ports:
-    keys:
-    - inputX
-    - inputY
-    - inputZ
-    - value
-    values:
-    - _fieldName: inputX
-      _node: {fileID: -4549240169520590832}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: value
-        node: {fileID: 146240116273045995}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: inputY
-      _node: {fileID: -4549240169520590832}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: value
-        node: {fileID: 890585304750070479}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: inputZ
-      _node: {fileID: -4549240169520590832}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: value
-        node: {fileID: 383601321576069008}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: value
-      _node: {fileID: -4549240169520590832}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: inputB
-        node: {fileID: -3938047039767685628}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  showPreview: 1
-  value: {fileID: -4549240169520590832}
-  inputX: {fileID: 146240116273045995}
-  inputY: {fileID: 890585304750070479}
-  inputZ: {fileID: 383601321576069008}
-  distCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  pivot: {x: 0.12, y: 1.03, z: 0.48}
-  targetBiome: 2
---- !u!114 &-3938047039767685628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f0315df462e4134290ffa036888061c, type: 3}
-  m_Name: Op Binary
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1448, y: 136}
-  ports:
-    keys:
-    - inputA
-    - inputB
-    - value
-    values:
-    - _fieldName: inputA
-      _node: {fileID: -3938047039767685628}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: value
-        node: {fileID: -4589021150817519994}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: inputB
-      _node: {fileID: -3938047039767685628}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: value
-        node: {fileID: -4549240169520590832}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: value
-      _node: {fileID: -3938047039767685628}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: -1552701292299661471}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  showPreview: 1
-  value: {fileID: -3938047039767685628}
-  inputA: {fileID: -4589021150817519994}
-  inputB: {fileID: -4549240169520590832}
+  showPreview: 0
+  value: {fileID: -9168432157682176786}
+  inputA: {fileID: 7581195072872172266}
+  inputB: {fileID: -5576172080404769120}
   operation: 2
   inverse: 0
---- !u!114 &-1552701292299661471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62e192bc63c560748a97c5a3a3fa05b7, type: 3}
-  m_Name: Terrain
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1752, y: 152}
-  ports:
-    keys:
-    - input
-    values:
-    - _fieldName: input
-      _node: {fileID: -1552701292299661471}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: value
-        node: {fileID: -3938047039767685628}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  input: {fileID: 0}
---- !u!114 &-276828531895503738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f0315df462e4134290ffa036888061c, type: 3}
-  m_Name: Op Binary
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 872, y: -168}
-  ports:
-    keys:
-    - inputA
-    - inputB
-    - value
-    values:
-    - _fieldName: inputA
-      _node: {fileID: -276828531895503738}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: value
-        node: {fileID: 146240116273045995}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: inputB
-      _node: {fileID: -276828531895503738}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: value
-        node: {fileID: 6131353978488978680}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: value
-      _node: {fileID: -276828531895503738}
-      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: -4589021150817519994}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  showPreview: 1
-  value: {fileID: -276828531895503738}
-  inputA: {fileID: 146240116273045995}
-  inputB: {fileID: 6131353978488978680}
-  operation: 3
-  inverse: 0
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35abe63ca6cb0d44e975074d7eec8593, type: 3}
-  m_Name: WorldGenerationGraph
-  m_EditorClassIdentifier: 
-  nodes:
-  - {fileID: 4056792842291558170}
-  - {fileID: -276828531895503738}
-  - {fileID: 890585304750070479}
-  - {fileID: 383601321576069008}
-  - {fileID: 146240116273045995}
-  - {fileID: 6131353978488978680}
-  - {fileID: -4549240169520590832}
-  - {fileID: -4589021150817519994}
-  - {fileID: -3938047039767685628}
-  - {fileID: -1552701292299661471}
-  seed: 0
-  dirty: 1
---- !u!114 &146240116273045995
+--- !u!114 &-8597563605754815645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -342,47 +75,41 @@ MonoBehaviour:
   m_Name: Op Range
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 296, y: -56}
+  position: {x: -776, y: 680}
   ports:
     keys:
     - input
     - value
     values:
     - _fieldName: input
-      _node: {fileID: 146240116273045995}
+      _node: {fileID: -8597563605754815645}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
       - fieldName: value
-        node: {fileID: 4056792842291558170}
+        node: {fileID: -5239735701452032828}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: value
-      _node: {fileID: 146240116273045995}
+      _node: {fileID: -8597563605754815645}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: inputA
-        node: {fileID: -276828531895503738}
-        reroutePoints: []
-      - fieldName: input
-        node: {fileID: 6131353978488978680}
-        reroutePoints: []
-      - fieldName: inputX
-        node: {fileID: -4549240169520590832}
+      - fieldName: inputB
+        node: {fileID: 8541607954707548598}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   showPreview: 1
-  value: {fileID: 146240116273045995}
-  input: {fileID: 4056792842291558170}
+  value: {fileID: -8597563605754815645}
+  input: {fileID: -5239735701452032828}
   pivot: 0.5
-  dist: 0.3
+  dist: 0.1
   softCurve:
     serializedVersion: 2
     m_Curve:
@@ -398,8 +125,8 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 2
-      outSlope: 2
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -407,7 +134,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &383601321576069008
+--- !u!114 &-8468819916698866780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -416,32 +143,141 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84c71948b5a324a4f82d19c6d6c4f4da, type: 3}
-  m_Name: Perlin Noise
+  m_Script: {fileID: 11500000, guid: 871dbc8e2c7dc17498a09000d59f93de, type: 3}
+  m_Name: Source Const
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 8, y: 648}
+  position: {x: 8, y: -104}
   ports:
     keys:
     - value
     values:
     - _fieldName: value
-      _node: {fileID: 383601321576069008}
+      _node: {fileID: -8468819916698866780}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: inputZ
-        node: {fileID: -4549240169520590832}
+      - fieldName: inputA
+        node: {fileID: -5598802561008263171}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 0
+  value: {fileID: -8468819916698866780}
+  constant: 0.6
+--- !u!114 &-8449086467301433562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a6216a27a70e8a44aeab689a2ceffa6, type: 3}
+  m_Name: Op Clamp
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 24, y: 792}
+  ports:
+    keys:
+    - input
+    - value
+    values:
+    - _fieldName: input
+      _node: {fileID: -8449086467301433562}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: 1302567644969084952}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: -8449086467301433562}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6320588102683769706}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 0
+  value: {fileID: -8449086467301433562}
+  input: {fileID: 1302567644969084952}
+  min: 0
+  max: 10
+--- !u!114 &-7300992744670108557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0315df462e4134290ffa036888061c, type: 3}
+  m_Name: Op Binary
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 824, y: 8}
+  ports:
+    keys:
+    - inputA
+    - inputB
+    - value
+    values:
+    - _fieldName: inputA
+      _node: {fileID: -7300992744670108557}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -5598802561008263171}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputB
+      _node: {fileID: -7300992744670108557}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -6949972652698078289}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: -7300992744670108557}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -2341581482210718876}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   showPreview: 1
-  value: {fileID: 383601321576069008}
-  scale: 27
-  bias: 0
---- !u!114 &890585304750070479
+  value: {fileID: -7300992744670108557}
+  inputA: {fileID: -5598802561008263171}
+  inputB: {fileID: -6949972652698078289}
+  operation: 0
+  inverse: 0
+--- !u!114 &-6949972652698078289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -450,32 +286,60 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84c71948b5a324a4f82d19c6d6c4f4da, type: 3}
-  m_Name: Perlin Noise
+  m_Script: {fileID: 11500000, guid: 2f0315df462e4134290ffa036888061c, type: 3}
+  m_Name: Op Binary
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 8, y: 328}
+  position: {x: 568, y: 248}
   ports:
     keys:
+    - inputA
+    - inputB
     - value
     values:
-    - _fieldName: value
-      _node: {fileID: 890585304750070479}
+    - _fieldName: inputA
+      _node: {fileID: -6949972652698078289}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: inputY
-        node: {fileID: -4549240169520590832}
+      - fieldName: value
+        node: {fileID: -279397461606026857}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputB
+      _node: {fileID: -6949972652698078289}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: 6320588102683769706}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: -6949972652698078289}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: inputB
+        node: {fileID: -7300992744670108557}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   showPreview: 1
-  value: {fileID: 890585304750070479}
-  scale: 12
-  bias: 0
---- !u!114 &4056792842291558170
+  value: {fileID: -6949972652698078289}
+  inputA: {fileID: -5598802561008263171}
+  inputB: {fileID: 6320588102683769706}
+  operation: 2
+  inverse: 0
+--- !u!114 &-6947360142606537563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -484,8 +348,203 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84c71948b5a324a4f82d19c6d6c4f4da, type: 3}
-  m_Name: Perlin Noise
+  m_Script: {fileID: 11500000, guid: 9800f08dcf6093c449755336811a57e4, type: 3}
+  m_Name: Source Perlin Noise
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -776, y: 1048}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -6947360142606537563}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: inputB
+        node: {fileID: 1302567644969084952}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 1
+  value: {fileID: -6947360142606537563}
+  scale: 25
+  bias: 0
+--- !u!114 &-5598802561008263171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0315df462e4134290ffa036888061c, type: 3}
+  m_Name: Op Binary
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 360, y: 8}
+  ports:
+    keys:
+    - inputA
+    - inputB
+    - value
+    values:
+    - _fieldName: inputA
+      _node: {fileID: -5598802561008263171}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -8468819916698866780}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputB
+      _node: {fileID: -5598802561008263171}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -279397461606026857}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: -5598802561008263171}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: inputA
+        node: {fileID: -7300992744670108557}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 0
+  value: {fileID: -5598802561008263171}
+  inputA: {fileID: -279397461606026857}
+  inputB: {fileID: -8468819916698866780}
+  operation: 2
+  inverse: 0
+--- !u!114 &-5576172080404769120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9800f08dcf6093c449755336811a57e4, type: 3}
+  m_Name: Source Perlin Noise
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1032, y: 584}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -5576172080404769120}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: inputB
+        node: {fileID: -9168432157682176786}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 1
+  value: {fileID: -5576172080404769120}
+  scale: 4
+  bias: -0.6
+--- !u!114 &-5239735701452032828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9800f08dcf6093c449755336811a57e4, type: 3}
+  m_Name: Source Perlin Noise
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1032, y: 904}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -5239735701452032828}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -8597563605754815645}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 1
+  value: {fileID: -5239735701452032828}
+  scale: 7
+  bias: 0
+--- !u!114 &-2341581482210718876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e192bc63c560748a97c5a3a3fa05b7, type: 3}
+  m_Name: Terrain
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1096, y: 24}
+  ports:
+    keys:
+    - input
+    values:
+    - _fieldName: input
+      _node: {fileID: -2341581482210718876}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -7300992744670108557}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: -7300992744670108557}
+--- !u!114 &-279397461606026857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709db4d5e5301eb4181614a69e636a84, type: 3}
+  m_Name: Source Radial
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   position: {x: 8, y: 8}
@@ -494,22 +553,151 @@ MonoBehaviour:
     - value
     values:
     - _fieldName: value
-      _node: {fileID: 4056792842291558170}
+      _node: {fileID: -279397461606026857}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: input
-        node: {fileID: 146240116273045995}
+      - fieldName: inputA
+        node: {fileID: -6949972652698078289}
+        reroutePoints: []
+      - fieldName: inputB
+        node: {fileID: -5598802561008263171}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   showPreview: 1
-  value: {fileID: 4056792842291558170}
-  scale: 4
-  bias: 0
---- !u!114 &6131353978488978680
+  value: {fileID: -279397461606026857}
+  origin: 0
+  distance: 2
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.07315578
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49
+      value: 0
+      inSlope: -8.610531
+      outSlope: -8.610531
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.04731036
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35abe63ca6cb0d44e975074d7eec8593, type: 3}
+  m_Name: WorldGenerationGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2341581482210718876}
+  - {fileID: -279397461606026857}
+  - {fileID: -5576172080404769120}
+  - {fileID: -6947360142606537563}
+  - {fileID: 8541607954707548598}
+  - {fileID: -5239735701452032828}
+  - {fileID: -8597563605754815645}
+  - {fileID: -9168432157682176786}
+  - {fileID: 7581195072872172266}
+  - {fileID: 1302567644969084952}
+  - {fileID: -6949972652698078289}
+  - {fileID: -7300992744670108557}
+  - {fileID: 6320588102683769706}
+  - {fileID: -5598802561008263171}
+  - {fileID: -8468819916698866780}
+  - {fileID: -8449086467301433562}
+  seed: 0
+  dirty: 1
+--- !u!114 &1302567644969084952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0315df462e4134290ffa036888061c, type: 3}
+  m_Name: Op Binary
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -232, y: 808}
+  ports:
+    keys:
+    - inputA
+    - inputB
+    - value
+    values:
+    - _fieldName: inputA
+      _node: {fileID: 1302567644969084952}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: 8541607954707548598}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputB
+      _node: {fileID: 1302567644969084952}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -6947360142606537563}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: 1302567644969084952}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -8449086467301433562}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 1
+  value: {fileID: 1302567644969084952}
+  inputA: {fileID: 8541607954707548598}
+  inputB: {fileID: -6947360142606537563}
+  operation: 2
+  inverse: 0
+--- !u!114 &6320588102683769706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -522,39 +710,135 @@ MonoBehaviour:
   m_Name: Op Transform
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 632, y: -24}
+  position: {x: 264, y: 776}
   ports:
     keys:
     - input
     - value
     values:
     - _fieldName: input
-      _node: {fileID: 6131353978488978680}
+      _node: {fileID: 6320588102683769706}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
       - fieldName: value
-        node: {fileID: 146240116273045995}
+        node: {fileID: -8449086467301433562}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: value
-      _node: {fileID: 6131353978488978680}
+      _node: {fileID: 6320588102683769706}
       _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
       - fieldName: inputB
-        node: {fileID: -276828531895503738}
+        node: {fileID: -6949972652698078289}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 0
+  value: {fileID: 6320588102683769706}
+  input: {fileID: -8449086467301433562}
+  angle: 0
+  scale: 3
+  power: 0.25
+  offset: {x: 0, y: 0}
+--- !u!114 &7581195072872172266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871dbc8e2c7dc17498a09000d59f93de, type: 3}
+  m_Name: Source Const
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1032, y: 472}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 7581195072872172266}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: inputA
+        node: {fileID: -9168432157682176786}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  showPreview: 0
+  value: {fileID: 7581195072872172266}
+  constant: 5
+--- !u!114 &8541607954707548598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0315df462e4134290ffa036888061c, type: 3}
+  m_Name: Op Binary
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -536, y: 568}
+  ports:
+    keys:
+    - inputA
+    - inputB
+    - value
+    values:
+    - _fieldName: inputA
+      _node: {fileID: 8541607954707548598}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -9168432157682176786}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputB
+      _node: {fileID: 8541607954707548598}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: value
+        node: {fileID: -8597563605754815645}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: 8541607954707548598}
+      _typeQualifiedName: MetaRTS.GenNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: inputA
+        node: {fileID: 1302567644969084952}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   showPreview: 1
-  value: {fileID: 6131353978488978680}
-  input: {fileID: 146240116273045995}
-  angle: -117.81
-  scale: 4
-  offset: {x: 8, y: 8}
+  value: {fileID: 8541607954707548598}
+  inputA: {fileID: -9168432157682176786}
+  inputB: {fileID: -8597563605754815645}
+  operation: 0
+  inverse: 0

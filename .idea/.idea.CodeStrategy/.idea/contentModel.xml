@@ -49,13 +49,15 @@
                   <e p="GenNode.cs" t="Include" />
                   <e p="OpBinaryNode.cs" t="Include" />
                   <e p="OpClampNode.cs" t="Include" />
-                  <e p="OpConstNode.cs" t="Include" />
                   <e p="OpRangeNode.cs" t="Include" />
                   <e p="OpTransformNode.cs" t="Include" />
-                  <e p="PerlinNoiseNode.cs" t="Include" />
+                  <e p="SourceConstNode.cs" t="Include" />
+                  <e p="SourcePerlinNoiseNode.cs" t="Include" />
+                  <e p="SourceRadialNode.cs" t="Include" />
                   <e p="TerrainNode.cs" t="Include" />
                 </e>
                 <e p="TerrainGenerator.cs" t="Include" />
+                <e p="TerrainGeneratorV2.cs" t="Include" />
                 <e p="WorldGenGraph.cs" t="Include" />
                 <e p="WorldGenUtils.cs" t="Include" />
               </e>
