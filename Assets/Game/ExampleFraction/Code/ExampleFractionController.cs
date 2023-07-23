@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using MetaRTS;
+using MetaRTS_Legacy;
 using UnityEngine;
 
 namespace ExampleFraction

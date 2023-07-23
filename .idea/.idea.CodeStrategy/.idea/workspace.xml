@@ -2,123 +2,169 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="784dc41d-9cb6-45c2-aa54-04226be97dbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/TestUnits/Code/BugLeg.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/TestUnits/Code/BugLeg.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/TestUnits/Code/BugsUpdater.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/TestUnits/Code/BugsUpdater.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor/OrbPresetConfigEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor/OrbPresetConfigEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Fraction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Fraction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/Resource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/Resource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/ResourceEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/ResourceEntity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameStarter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameStarter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/Cooldown.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/Cooldown.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbBrain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbBrain.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbInteraction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbInteraction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfileConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfileConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/RTSCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/RTSCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Tornament.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpConstNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpConstNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/PerlinNoiseNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/PerlinNoiseNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenerationGraph.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenerationGraph.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/ExampleFraction/Code/ExampleFractionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/ExampleFraction/Code/ExampleFractionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Checker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Checker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras/UnitHeightLocker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras/UnitHeightLocker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras/UnitHullRotator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras/UnitHullRotator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/FractionController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/FractionController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/Fraction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/Fraction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/FractionSetting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/FractionSetting.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/Orb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/Orb.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/OrbAbilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/OrbAbilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/OrbSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/OrbSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceContainer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourcePack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourcePack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ViewCylinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ViewCylinder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/OrbHUDController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/OrbHUDController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/TerrainManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/TerrainManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/TestTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/TestTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/BitUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/BitUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/ObjectsPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/ObjectsPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/SearchGrid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/SearchGrid.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/Singleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/Singleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Editor/GenerationNodeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Editor/GenerationNodeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/GenRandom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/GenRandom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceRadialNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceRadialNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenerationGraph.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenerationGraph.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.04.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.04.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/MetaActive.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/MetaActive.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/MetaDead.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/MetaDead.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/SurfaceBase.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/SurfaceBase.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/SurfaceDark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/SurfaceDark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Trigger.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Trigger.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Wood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs/Tree.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs/Tree.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="23" />
-              <folding>
-                <marker date="1643473877111" expanded="false" signature="6:92" ph="..." />
-                <marker date="1643473877111" expanded="true" signature="111:2418" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="165:1129" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="468:627" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="671:1126" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="972:1046" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="1198:2416" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="1524:1604" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="1545:1600" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="1630:2106" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="1821:1874" ph="{...}" />
-                <marker date="1643473877111" expanded="true" signature="2152:2413" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="30" />
-              <folding>
-                <marker date="1643581408961" expanded="true" signature="6:78" ph="..." />
-                <marker date="1643581408961" expanded="true" signature="97:1077" ph="{...}" />
-                <marker date="1643581408961" expanded="true" signature="169:1075" ph="{...}" />
-                <marker date="1643581408961" expanded="true" signature="401:481" ph="{...}" />
-                <marker date="1643581408961" expanded="true" signature="422:477" ph="{...}" />
-                <marker date="1643581408961" expanded="true" signature="507:1072" ph="{...}" />
-                <marker date="1643581408961" expanded="true" signature="700:840" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-              <folding>
-                <marker date="1643581627167" expanded="false" signature="6:135" ph="..." />
-                <marker date="1643581627167" expanded="true" signature="154:809" ph="{...}" />
-                <marker date="1643581627167" expanded="true" signature="196:807" ph="{...}" />
-                <marker date="1643581627167" expanded="true" signature="379:391" ph="{...}" />
-                <marker date="1643581627167" expanded="true" signature="444:804" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
-              <folding>
-                <marker date="1643581314848" expanded="true" signature="6:91" ph="..." />
-                <marker date="1643581314848" expanded="true" signature="111:286" ph="{...}" />
-                <marker date="1643581314848" expanded="true" signature="174:284" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <marker date="1643579107851" expanded="false" signature="6:105" ph="..." />
-                <marker date="1643579107851" expanded="true" signature="124:946" ph="{...}" />
-                <marker date="1643579107851" expanded="true" signature="128:236" ph="[...]" />
-                <marker date="1643579107851" expanded="true" signature="312:944" ph="{...}" />
-                <marker date="1643579107851" expanded="true" signature="407:482" ph="{...}" />
-                <marker date="1643579107851" expanded="true" signature="530:610" ph="{...}" />
-                <marker date="1643579107851" expanded="true" signature="656:707" ph="{...}" />
-                <marker date="1643579107851" expanded="true" signature="739:781" ph="{...}" />
-                <marker date="1643579107851" expanded="true" signature="820:941" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -129,20 +175,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceRadialNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bae255e3e08e46f7bc2fbd23dde96338158800/fb/4db738f4/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GlobalConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bae255e3e08e46f7bc2fbd23dde96338158800/62/2f525ec5/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor/OrbPresetConfigEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8f80c2d02d314878872cb1183823de6f1a000/d4/dc341785/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbBrain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d303c2bf72cd4cec95665b89c457d265d2b8ef3ed6da17cd4f85587c2f9de7/System.Linq.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameStarter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -166,6 +217,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -180,6 +234,7 @@
     <option name="width" value="1148" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="2S1O59zYlORbjHSVWOYkx7LjHdh" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -257,26 +312,54 @@
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\CoderStrategy.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\PROGRAMMING\Unity_2023\CodeStrategy\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -288,6 +371,18 @@
       <option name="presentableId" value="Default" />
       <updated>1643576703837</updated>
       <workItem from="1643576705064" duration="4606000" />
+      <workItem from="1688310463023" duration="2115000" />
+      <workItem from="1688336746368" duration="114000" />
+      <workItem from="1688415995178" duration="622000" />
+      <workItem from="1688897010514" duration="524000" />
+      <workItem from="1688903414309" duration="4684000" />
+      <workItem from="1689015678737" duration="2474000" />
+      <workItem from="1689420239619" duration="11142000" />
+      <workItem from="1689530645927" duration="7600000" />
+      <workItem from="1689804207797" duration="594000" />
+      <workItem from="1690019342477" duration="7151000" />
+      <workItem from="1690047808295" duration="11102000" />
+      <workItem from="1690102729950" duration="1531000" />
     </task>
     <servers />
   </component>
@@ -333,7 +428,24 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
