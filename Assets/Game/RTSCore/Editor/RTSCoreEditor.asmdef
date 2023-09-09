@@ -1,0 +1,19 @@
+{
+    "name": "RTSCoreEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:09baf8ea7c10abc4399a5746addd0336",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

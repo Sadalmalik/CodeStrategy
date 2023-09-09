@@ -2,164 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="784dc41d-9cb6-45c2-aa54-04226be97dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/TestUnits/Code/BugLeg.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/TestUnits/Code/BugLeg.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/TestUnits/Code/BugsUpdater.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/TestUnits/Code/BugsUpdater.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor/OrbPresetConfigEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor/OrbPresetConfigEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Fraction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Fraction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/Resource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/Resource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/ResourceEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/ResourceEntity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameStarter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameStarter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/Cooldown.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/Cooldown.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbBrain.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbBrain.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbInteraction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbInteraction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfile.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfileConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfileConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbStorage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbStorage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/RTSCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/RTSCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Tornament.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeStrategy/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/ExampleFraction/Code/ExampleFractionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/ExampleFraction/Code/ExampleFractionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Checker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Checker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras/UnitHeightLocker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras/UnitHeightLocker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras/UnitHullRotator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Extras/UnitHullRotator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/FractionController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/FractionController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/Fraction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/Fraction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/FractionSetting.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/FractionSetting.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/Orb.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/Orb.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/OrbAbilities.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/OrbAbilities.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/OrbSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/OrbSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceContainer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceEntity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourcePack.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourcePack.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ResourceType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ViewCylinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Gameplay/ViewCylinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/OrbHUDController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/OrbHUDController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/TerrainManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/TerrainManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/TestTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/TestTrigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/BitUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/BitUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/ObjectsPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/ObjectsPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/SearchGrid.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/SearchGrid.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/Singleton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Utils/Singleton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Editor/GenerationNodeEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Editor/GenerationNodeEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/GenRandom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/GenRandom.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/BiomeExtractor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/GenNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpBinaryNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpClampNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpRangeNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/OpTransformNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceConstNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourcePerlinNoiseNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceRadialNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/SourceRadialNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/Nodes/TerrainNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/TerrainGeneratorV2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenGraph.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenerationGraph.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/WorldGenerator/WorldGenerationGraph.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.02.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.04.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Greenary.04.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/MetaActive.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/MetaActive.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/MetaDead.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/MetaDead.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/SurfaceBase.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/SurfaceBase.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/SurfaceDark.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/SurfaceDark.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Trigger.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Trigger.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Wood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/Wood.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs/Tree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs/Tree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor/OrbPresetConfigEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor/OrbPresetConfigEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Fraction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Fraction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/Resource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/Resource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/ResourceEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameResources/ResourceEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameStarter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameStarter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GlobalConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GlobalConfig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/Cooldown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/Cooldown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbBrain.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbBrain.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbInteraction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbInteraction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfileConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbProfileConfig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbStorage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbStorage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/RTSCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/RTSCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Tornament.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/OrbActive.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/OrbActive.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/OrbDead.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Materials/OrbDead.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Models/Oct.and.Orb.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Models/Oct.and.Orb.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs/RTSCamera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Prefabs/RTSCamera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/RTSCore.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/RTSCore.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Resources/OrbPreset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Resources/OrbPreset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Resources/RTSInputActions.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Resources/RTSInputActions.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/_RTSCore/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,15 +84,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bae255e3e08e46f7bc2fbd23dde96338158800/fb/4db738f4/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GlobalConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bae255e3e08e46f7bc2fbd23dde96338158800/62/2f525ec5/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Editor/OrbPresetConfigEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8f80c2d02d314878872cb1183823de6f1a000/d4/dc341785/Physics.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbInteraction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/Orb/OrbBrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d303c2bf72cd4cec95665b89c457d265d2b8ef3ed6da17cd4f85587c2f9de7/System.Linq.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/_RTSCore/Code/GameStarter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -382,7 +275,8 @@
       <workItem from="1689804207797" duration="594000" />
       <workItem from="1690019342477" duration="7151000" />
       <workItem from="1690047808295" duration="11102000" />
-      <workItem from="1690102729950" duration="1531000" />
+      <workItem from="1690102729950" duration="4318000" />
+      <workItem from="1690224144453" duration="1915000" />
     </task>
     <servers />
   </component>
